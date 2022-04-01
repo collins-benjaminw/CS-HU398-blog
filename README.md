@@ -1,6 +1,6 @@
 # Modern Apps and the Cloud
 ## Benjamin Collins
-### CS-HU398
+### A blog written for CS-HU398 at Boise State University
 
 Oh, the cloud. Such a marketing term, right? It's so nebulous, who really knows what it means? Let's deconstruct what the technology actually is, and its implications and uses.
 
@@ -58,6 +58,19 @@ This is not even to mention pricing, which depending on the runtime of your appl
 
 ## Infrastructure as code
 
+IaC is a concept that was built *for* the cloud. As shown above, in the cloud, there are resources that are developed as part of a solution. These resources can be built through web portals, but for anything larger than a proof-of-concept, I highly recommend setting up infrastructure with an IaC provider. The number-one system for IaC, and the one I use in my career, is [Terraform](https://www.terraform.io/). Now, there are others, but there are differences between different providers that are large enough that I simply could not explain all the types and what they do differently from one another, so I'll stick to terraform as it's the most obvious way to go about IaC in my view.
+
+IaC as a concept allows you to manage configuration on your cloud resources, called infrastructure. The main idea is that if anything happens to your resources, they can be fixed or rebuilt, then deployed to without worry. This also allows for configuration to be set up in a test environment, then copied with minimal changes to a production environment without unknown factors or human error.
+
+In Terraform, you have configuration written in it's own format similar to json, and does a similar thing to json too, allowing you to build resources as objects that are messaged to an agent in the cloud that reads the configuration on your resources, tracks differences, builds missing resources, updates configuration, and deletes resources you've removed from configuration. A repository of terraform files can be deployed through a CI/CD pipeline to deploy changes to the cloud infrastructure.
+
+## Final word
+
+Overall, these are some of the aspects of modern cloud computing that have interested me as a developer. Working with these technologies has shown me just how powerful the cloud is, and how much trouble it can save you. Overall, I'm excited for the future of this technology.
+
 ## References and Further Reading
 
-## Attributions
+- [Azure](https://azure.microsoft.com/en-us/)
+- [AWS](https://aws.amazon.com/)
+- [Google Cloud](https://cloud.google.com/)
+- [Terraform](https://www.terraform.io/)
