@@ -1,33 +1,9 @@
-## Modern Apps and the Cloud
-### Benjamin Collins
+# Modern Apps and the Cloud
+## Benjamin Collins
 ### CS-HU398
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Oh, the cloud. Such a marketing term, right? It's so nebulous, who really knows what it means? Let's deconstruct what the technology actually is, and its implications and uses.
 
-```markdown
-Syntax highlighted code block
+## References and Further Reading
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/collins-benjaminw/CS-HU398-blog/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## Attributions
